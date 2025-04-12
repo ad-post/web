@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Baking 101</title>
+    <link rel="stylesheet" type="text/css" href="../scratch/scratchstyles.css">
+</head>
+<body class="page">
+
+<div id="h1">
+    <h1 style="text-align: center;">Baking 101</h1> 
+</div>
+
+<div>
+    <img src="../images/treats.png" alt="cookies, muffins, and cake" width="1200" class="treats">
+</div>
+
+<h2 style = "text-align:center; font-family:Georgia, 'Times New Roman', Times, serif;">About</h2>
+
+<div class ="about">
+<p>Hi! My name is Addie, and I love to bake cake, cookies, muffins, etc. Below you'll find one of my favorite recipes: banana bread! It's easy to make and very delicious.</p>
+</div>
+<br>
+
+<h3 id = "h3">Banana Bread Recipe</h3>
+<div id="recipe">
+<p>Prep Time: 10 minutes</p>
+<p>Bake Time: 35 minutes</p>
+</div>
+
+<p style="font-family: Georgia, 'Times New Roman', Times, serif; font-weight: bold;">Ingredients</p>
+<ul id="ingredients">
+    <li>1/4 cup melted butter</li>
+    <li>1/4 cup unsweetened applesauce</li>
+    <li>2 eggs</li>
+    <li>1/2 cup white sugar</li>
+    <li>1/4 cup light brown sugar</li>
+    <li>1 and 1/2 cup all purpose flour</li>
+    <li>1 tsp. baking soda</li>
+    <li>3 medium overripe bananas</li>
+    <li>1 tsp vanilla</li>
+    <li>chocolate chips (optional)</li>
+</ul>
+</div>
+</div>
+
+
+<p style="font-family: Georgia, 'Times New Roman', Times, serif;font-weight:bold;">Directions</p>
+<ol id ="directions">
+    <li>Preheat the oven to 350 degrees.</li>
+    <li>In a bowl, mix together the dry ingredients.</li>
+    <li>In a separate bowl mix together the wet ingredients.</li>
+    <ul>
+        <li>Mash the banana first.</li>
+        <li>Then add the eggs, applesauce, and vanilla.</li>
+    </ul>
+    <li>Mix the wet and dry ingredients together. Stir slowly with a wisk until combined.</li>
+    <li>Add chocolate chips if desired.</li>
+    <li>Pour the batter into a greased bread pan (or muffin tins work too). Bake at 350 for 35 minutes.</li>
+    <li>Let cool and then enjoy!</li>
+</ol>
+<br>
+<br>
+<h3 style="font-family: Georgia, 'Times New Roman', Times, serif;text-align: center;">Here's a video for more in-depth instructions.</h3>
+<div class="video">
+    <iframe width="600" height="400" src="https://www.youtube.com/embed/Ob8eL4mMOys?si=QhSNmbOwgv4ib2EI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+<br>
+<h3 style ="font-family: Georgia, 'Times New Roman', Times, serif;text-align: center;">Check out this map of bakers in the United States!</h3>
+<div style="display: flex; justify-content: center; margin-top: 40px;">
+    <div class='tableauPlaceholder' id='viz1744412023356' style='width: 600px; height: 400px;'>
+        <noscript>
+            <a href='#'><img alt='# of Bakers by State ' src='https://public.tableau.com/static/images/DH/DHFDZX7P8/1_rss.png' style='border: none' /></a>
+        </noscript>
+        <object class='tableauViz' style='width: 100%; height: 100%;'>
+            <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+            <param name='embed_code_version' value='3' />
+            <param name='path' value='shared&#47;DHFDZX7P8' />
+            <param name='toolbar' value='yes' />
+            <param name='static_image' value='https://public.tableau.com/static/images/DH/DHFDZX7P8/1.png' />
+            <param name='animate_transition' value='yes' />
+            <param name='display_static_image' value='yes' />
+            <param name='display_spinner' value='yes' />
+            <param name='display_overlay' value='yes' />
+            <param name='display_count' value='yes' />
+            <param name='language' value='en-US' />
+        </object>
+    </div>
+</div>
+<script type='text/javascript'>
+    var divElement = document.getElementById('viz1744412023356');
+    var vizElement = divElement.getElementsByTagName('object')[0];
+    var scriptElement = document.createElement('script');
+    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+    vizElement.parentNode.insertBefore(scriptElement, vizElement);
+</script>
+<br>
+<h3 style="color: black; font-family:Georgia, 'Times New Roman', Times, serif; text-align: center;">Discover your next baking adventure! Use the link below for ideas. </p>
+
+<nav  id = "generator">
+<a style="color: black" href="dessert.html">Random Dessert Generator</a>
+</nav>
+<br>
+<br>
+<div class="anchor">
+<a  style ="color:rgb(189, 136, 89)" href="#h1">Top of Page</a>
+</div>
+<br>
+<nav style="text-align: center; background-color: rgb(147, 113, 83);padding-bottom: 10px;padding-top:10px;font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;color: black;font-size: larger;">
+<a style="color:black" href = "../index.html">Addie Post</a>
+</nav>
+</body>
+</html>
