@@ -1,0 +1,47 @@
+.page{
+    background-color: rgb(250, 239, 210);
+}
+#h1{
+    background-color: rgb(147, 113, 83);
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+.video{
+    display: flex;
+    justify-content: center;
+    margin: 20px 0
+}
+.treats{
+    display: block;
+    margin: 0 auto
+}
+#h3{
+    text-decoration: underline;
+    text-align: center;
+}
+.about{
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    color:rgb(189, 136, 89);
+    font-size: larger;
+}
+#generator{
+    color:rgb(189, 136, 89);
+    font-size:large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+#ingredients{
+    padding-left: left; list-style-position: inside; 
+}
+.footer{
+    background-color: rgb(147, 113, 83) ;position: fixed; text-align: center;
+}
+#directions{
+    padding:left;list-style-position:inside ;
+}
+.anchor{
+    text-align:center;color: black; font-size: medium;
+}
+#recipe{
+    text-align: center;
+}
